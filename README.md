@@ -13,13 +13,11 @@ For macOS/Linux:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-Using the theme `agnoster` in `~/.zshrc`:
+Using the theme `agnoster` in `~/.zshrc`: (requires Powerline fonts)
 
 ```
 ZSH_THEME="agnoster"
 ```
-
-This theme requires Powerline fonts.
 
 Hide the username/hostname by adding the following to the bottom of `~/.zshrc`:
 
