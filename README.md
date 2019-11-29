@@ -21,6 +21,12 @@ ZSH_THEME="agnoster"
 
 This theme requires Powerline fonts.
 
+Hide the username/hostname by adding the following to the bottom of `~/.zshrc`:
+
+```
+prompt_context () { }
+```
+
 ## [Powerline fonts](https://github.com/powerline/fonts)
 
 For macOS/Linux:
