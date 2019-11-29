@@ -13,6 +13,12 @@ For macOS/Linux:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+Use `zsh` as the default shell for user `ubuntu` (useful when there is no password by default, e.g. Ubuntu on EC2):
+
+```
+sudo chsh ubuntu -s /bin/zsh
+```
+
 Using the theme `agnoster` in `~/.zshrc`: (requires Powerline fonts)
 
 ```
