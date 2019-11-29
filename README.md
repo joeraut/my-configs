@@ -63,6 +63,5 @@ To install and use the `deus` theme, and apply my custom configuration:
 ```
 cd ~/.vim_runtime/
 curl https://raw.githubusercontent.com/joeraut/my-configs/master/custom-vim-conf.vim > my_configs.vim
-cd my_plugins/
-git clone https://github.com/ajmwagar/vim-deus
+git clone https://github.com/ajmwagar/vim-deus my_plugins/vim-deus/
 ```
