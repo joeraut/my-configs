@@ -25,6 +25,12 @@ Using the theme `agnoster` in `~/.zshrc`: (requires Powerline fonts)
 ZSH_THEME="agnoster"
 ```
 
+[Sublime Text aliases](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sublime):
+
+```
+plugins=(git sublime)
+```
+
 Hide the username/hostname by adding the following to the bottom of `~/.zshrc`:
 
 ```
