@@ -3,8 +3,6 @@ set background=dark
 colorscheme deus
 
 " Syntax
-set textwidth=80 " maximum of 80 characters per line
-
 set tabstop=4       " Use tab width 4
 set shiftwidth=4    " Indents will have a width of 4
 set softtabstop=4   " Sets the number of columns for a tab
