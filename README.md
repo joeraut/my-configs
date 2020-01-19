@@ -37,6 +37,24 @@ Hide the username/hostname by adding the following to the bottom of `~/.zshrc`:
 prompt_context () { }
 ```
 
+### Fix locales:
+
+Write the following to `/etc/default/locale`:
+
+```
+LC_CTYPE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+LANG=en_US.UTF-8
+```
+
+If that doesn't fix it, try the commands below one after another until the problem is resolved:
+
+```
+sudo dpkg-reconfigure locales
+sudo locale-gen en_US.UTF-8
+sudo localectl set-locale LANG=en_US.UTF-8
+```
+
 ## [Powerline fonts](https://github.com/powerline/fonts)
 
 For macOS/Linux:
