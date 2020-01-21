@@ -65,7 +65,7 @@ cd fonts
 ./install.sh
 ```
 
-The font *"Meslo LG S Regular for Powerline"* at 11 pt. works well in macOS's Terminal.app.
+The font *"Meslo LG S for Powerline"*, Regular at 11 pt. works well in macOS's Terminal.app.
 
 ## [Espresso color scheme](https://github.com/lysyi3m/macos-terminal-themes) for macOS Terminal.app
 
