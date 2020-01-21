@@ -86,7 +86,7 @@ LC_ALL=en_US.UTF-8
 LANG=en_US.UTF-8
 ```
 
-If that doesn't fix it, try the commands below one after another until the problem is resolved:
+If that doesn't fix it, try the commands below one after another until the problem is (hopefully) resolved.
 
 ```
 sudo dpkg-reconfigure locales
