@@ -43,8 +43,7 @@ For macOS/Linux:
 
 ```
 git clone https://github.com/powerline/fonts.git
-cd fonts
-./install.sh
+cd fonts && ./install.sh
 ```
 
 The font *"Meslo LG S for Powerline"*, Regular at 11 pt. works well in macOS's Terminal.app.
@@ -55,8 +54,7 @@ The Espresso color scheme looks great:
 
 ```
 git clone https://github.com/lysyi3m/macos-terminal-themes
-cd macos-terminal-themes
-open schemes/
+open macos-terminal-themes/schemes/
 ```
 
 This will open a Finder window, just double-click the `Espresso.terminal` file and the theme will be added to the terminal settings pane—just set as the default theme.
