@@ -54,10 +54,10 @@ The Espresso color scheme looks great:
 
 ```
 git clone https://github.com/lysyi3m/macos-terminal-themes
-open macos-terminal-themes/schemes/
+open macos-terminal-themes/schemes/Espresso.terminal
 ```
 
-This will open a Finder window, just double-click the `Espresso.terminal` file and the theme will be added to the terminal settings pane—just set as the default theme.
+This will open Terminal and add the theme. Set it as the default theme in Terminal preferences.
 
 ## [Ultimate vim configuration](https://github.com/amix/vimrc)
 
