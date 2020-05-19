@@ -37,6 +37,17 @@ Hide the username/hostname by adding the following to the bottom of `~/.zshrc`:
 prompt_context () { }
 ```
 
+## [Espresso color scheme](https://github.com/lysyi3m/macos-terminal-themes) for macOS Terminal.app
+
+The Espresso color scheme looks great:
+
+```
+git clone https://github.com/lysyi3m/macos-terminal-themes
+open macos-terminal-themes/themes/Espresso.terminal
+```
+
+This will open Terminal and add the theme. Set it as the default theme in Terminal preferences.
+
 ## [Powerline fonts](https://github.com/powerline/fonts)
 
 For macOS/Linux:
@@ -47,17 +58,6 @@ cd fonts && ./install.sh
 ```
 
 The font *"Meslo LG S for Powerline"*, Regular at 11 pt. works well in macOS's Terminal.app.
-
-## [Espresso color scheme](https://github.com/lysyi3m/macos-terminal-themes) for macOS Terminal.app
-
-The Espresso color scheme looks great:
-
-```
-git clone https://github.com/lysyi3m/macos-terminal-themes
-open macos-terminal-themes/schemes/Espresso.terminal
-```
-
-This will open Terminal and add the theme. Set it as the default theme in Terminal preferences.
 
 ## [Ultimate vim configuration](https://github.com/amix/vimrc)
 
