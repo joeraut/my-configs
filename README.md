@@ -19,7 +19,7 @@ Use `zsh` as the default shell for user `ubuntu` (useful when there is no passwo
 sudo chsh ubuntu -s /usr/bin/zsh
 ```
 
-Using the theme `agnoster` in `~/.zshrc`: (requires Powerline fonts)
+Using the theme `agnoster` in `~/.zshrc`: (NB: requires Powerline fonts - see below)
 
 ```
 ZSH_THEME="agnoster"
