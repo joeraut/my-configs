@@ -18,3 +18,5 @@ set visualbell t_vb=
 
 " enable vim-gitgutter plugin
 let g:gitgutter_enabled=1
+" speed up updatetime for faster git tracking
+set updatetime=100
