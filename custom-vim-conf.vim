@@ -15,3 +15,6 @@ set foldlevelstart=99 " disable folding
 
 " Disable bell
 set visualbell t_vb=
+
+" enable vim-gitgutter plugin
+let g:gitgutter_enabled=1
