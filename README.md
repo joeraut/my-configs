@@ -37,6 +37,18 @@ Hide the username/hostname by adding the following to the bottom of `~/.zshrc`:
 prompt_context () { }
 ```
 
+Aliases:
+
+```
+alias vz="vim ~/.zshrc"
+alias sz="exec -l $SHELL"
+
+#alias g="git"
+alias gs="git status"
+alias gd="git diff"
+alias gl="git log"
+```
+
 ## [Espresso color scheme](https://github.com/lysyi3m/macos-terminal-themes) for macOS Terminal.app
 
 The Espresso color scheme looks great:
