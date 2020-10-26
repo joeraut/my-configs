@@ -43,7 +43,6 @@ Aliases:
 alias vz="vim ~/.zshrc"
 alias sz="exec -l $SHELL"
 
-#alias g="git"
 alias gs="git status"
 alias gd="git diff"
 alias gl="git log"
