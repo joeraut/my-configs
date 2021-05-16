@@ -37,6 +37,12 @@ Hide the username/hostname by adding the following to the bottom of `~/.zshrc`:
 prompt_context () { }
 ```
 
+## SSH key
+Generate SSH public/private keys:
+```bash
+ssh-keygen -t rsa
+```
+
 ## [Espresso color scheme](https://github.com/lysyi3m/macos-terminal-themes) for macOS Terminal.app
 
 The Espresso color scheme looks great:
