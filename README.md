@@ -87,7 +87,11 @@ LANG=en_US.UTF-8
 If that doesn't fix it, try the commands below one after another until the problem is (hopefully) resolved.
 
 ```bash
-sudo dpkg-reconfigure locales
 sudo locale-gen en_US.UTF-8
 sudo localectl set-locale LANG=en_US.UTF-8
+```
+
+Finally, try:
+```bash
+sudo dpkg-reconfigure locales
 ```
