@@ -1,0 +1,16 @@
+export ZSH="/home/${USER}/.oh-my-zsh"
+
+ZSH_THEME="agnoster"
+
+plugins=()
+
+DISABLE_AUTO_UPDATE="true"
+DISABLE_MAGIC_FUNCTIONS="true"
+source $ZSH/oh-my-zsh.sh
+
+alias vz="vim ~/.zshrc"
+alias sz="exec -l $SHELL"
+
+alias gs="git status"
+alias gd="git diff"
+alias gl="git log"
